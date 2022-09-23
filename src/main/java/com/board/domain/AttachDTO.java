@@ -7,7 +7,7 @@ import java.util.PrimitiveIterator;
 
 @Getter
 @Setter
-public class AttachDTO {
+public class AttachDTO extends CommentDTO{
 
     //파일 번호 (PK)
     private Long idx;
